@@ -35,7 +35,7 @@ namespace fukuvHensu
 
         private void button1_Click(object sender, EventArgs e)
         {
-            button1.Top = button1.Top - 3;
+            label1.Top = label1.Top - 3;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -45,17 +45,17 @@ namespace fukuvHensu
 
         private void button3_Click(object sender, EventArgs e)
         {
-            button3.Left = button3.Left - 3;
+            label1.Left = label1.Left - 3;
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            button4.Top = button4.Top + 3;
+            label1.Top = label1.Top + 3;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            button2.Left = button2.Left - 3;
+            label1.Left = label1.Left - 3;
         }
     }
 }
