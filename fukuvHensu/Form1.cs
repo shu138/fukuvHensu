@@ -25,7 +25,7 @@ namespace fukuvHensu
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-
+            label1.Left += int.Parse(textBox1.Text);
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -45,7 +45,7 @@ namespace fukuvHensu
 
         private void button3_Click(object sender, EventArgs e)
         {
-            label1.Left = label1.Left - 3;
+            label1.Left = label1.Left + 3;
         }
 
         private void button4_Click(object sender, EventArgs e)
