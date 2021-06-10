@@ -12,10 +12,50 @@ namespace fukuvHensu
 {
     public partial class Form1 : Form
     {
+        
         public Form1()
         {
             InitializeComponent();
         }
 
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            button1.Top = button1.Top - 3;
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            button3.Left = button3.Left - 3;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            button4.Top = button4.Top + 3;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            button2.Left = button2.Left - 3;
+        }
     }
 }
